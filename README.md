@@ -39,5 +39,9 @@ As we used dot env configuration, please open the env file , add related data an
 ## Routes
 - `GET /` For simple welcome message
 - `GET /question/` For getting all existing questions
+- `GET /question/:id` For getting a single question
+- `POST /question/create` to create a question. Pass json data in body `{
+    "title" : "test123"
+}`
 
 
