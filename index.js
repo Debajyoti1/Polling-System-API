@@ -12,6 +12,11 @@ const app = express();
 app.use(express.json()); // Parse JSON requests
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded requests
 
+app.use('/',(req,res,next)=>{
+  console.log(req.ip);
+  next()
+})
+
 // Import and use routes defined in separate modules
 app.use('/', require('./routes'));
 
