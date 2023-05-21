@@ -1,0 +1,17 @@
+{
+  "name": "polling-system-api",
+  "version": "1.0.0",
+  "description": "Open Polling System API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Polling",
+    "system",
+    "polling",
+    "api"
+  ],
+  "author": "Debajyoti Dutta",
+  "license": "ISC"
+}
