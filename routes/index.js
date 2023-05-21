@@ -6,7 +6,7 @@ const router=express.Router()
 router.use('/',require('./home'))
 
 router.use('/question',require('./question'))
-// router.use('/option',require('./option'))
+router.use('/option',require('./option'))
 
 
 
