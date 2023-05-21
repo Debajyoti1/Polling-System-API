@@ -13,5 +13,10 @@
     "api"
   ],
   "author": "Debajyoti Dutta",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  }
 }
