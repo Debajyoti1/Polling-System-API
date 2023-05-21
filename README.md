@@ -35,3 +35,9 @@ As we used dot env configuration, please open the env file , add related data an
 `npm start`
 
 #### The Server should now be running at http://localhost:8000/
+
+## Routes
+- `GET /` For simple welcome message
+- `GET /question/` For getting all existing questions
+
+
