@@ -43,5 +43,14 @@ As we used dot env configuration, please open the env file , add related data an
 - `POST /question/create` to create a question. Pass json data in body `{
     "title" : "test123"
 }`
+- `POST /question/:id/option/create` to create options for a question. Pass the question id in url id parameter and JSON data in body `{
+    "options" : ["abc","def"]
+}`
+- `GET /question/:id/delete` to delete a question. Pass the question id in url id parameter
+- `GET /option/` For getting all existing options
+- `GET /option/:id/delete` to delete an option. Pass the option id in url id parameter
+- `GET /option/:id/add_vote` to vote for an option.Pass the option id in url id parameter
+
+
 
 
